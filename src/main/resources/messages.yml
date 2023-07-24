@@ -1,0 +1,23 @@
+# Placeholders:
+# {p}: prefix set in config.yml
+no-permission: "{p}§7: §fYou don't have permission to do that."
+
+# Rank GUI section
+# {0}: rank name
+not-enough-money: "{p}§7: §fYou don't have enough money to buy {0}."
+not-enough-votepoints: "{p}§7: §fYou don't have enough vote points to buy {0}. \nYou can see how many votes you have by doing /votepoints."
+already-have-top-rank: "{p}§7: §fYou already have the top rank."
+issue-getting-current-rank: "{p}§7: §fThere was an issue getting your current rank."
+purchased-rank: "{p}§7: §fYou have purchased {0} rank."
+error-withdrawing-money: "{p}§7: §fAn error occurred when trying to withdraw money from your balance."
+
+# Vote points section
+# {0}: vote points
+# {1}: player name
+player-never-joined: "{p}§7: §fThat player has never joined the server before."
+self-votepoint: "{p}§7: §fYou have {0} vote points."
+other-votepoint: "{p}§7: §f{1} has {0} vote points."
+new-votepoint: "{p}§7: §f{1} now has {0} vote points."
+invalid-amount: "{p}§7: §fPlease enter a valid amount."
+invalid-arguments: "{p}§7: §fInvalid arguments."
+display-usage: "{p}§7: §fUsage: /votepoints <add/set/remove> <player> <amount>"

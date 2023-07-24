@@ -1,0 +1,158 @@
+# Prefix
+prefix: §bInfinite Minecrafters
+# rank gui filler item details
+rank-gui-filler-item:
+  name: " "
+  material: GRAY_STAINED_GLASS_PANE
+# should fillers fill every empty space or should they only fill boundaries (true would fill every space)
+rank-gui-filler-all: FALSE
+ranks:
+  # rank-name
+  player:
+    # Luckperms group permission
+    group: group.default
+    vote_req: 0
+    cost: 0
+    item:
+      name: Default rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjMzZjOWNiNTBhNTI3YWE1NTYwN2EwZGY3MTg1YWQyMGFhYmFhOTAzZThkOWFiZmM3ODI2MDcwNTU0MGRlZiJ9fX0=
+    glow: TRUE
+  nomad:
+    group: group.nomad
+    vote_req: 5
+    cost: 0
+    item:
+      name: Nomad rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVhNjc1ZTZkM2MxNTQ0MzBhY2Y3NDk1ODc2MWRiODAwM2Q0NmJhYjMyNzUzNDRkYmU1ZDMwM2UyMjNiY2RmOSJ9fX0=
+    glow: TRUE
+  nomad_plus:
+    group: group.nomad+
+    vote_req: 10
+    cost: 2000
+    item:
+      name: Nomad+ rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUwM2IwYzI0NjMzYThkNTRiNWQwNDYzYTlmNWNjZjdlZDg1MGU2Y2U4MTY3YWMwNjVlZTg5ODg5MDE2MjkwOSJ9fX0=
+    glow: TRUE
+  wanderer:
+    group: group.wanderer
+    vote_req: 15
+    cost: 5000
+    item:
+      name: Wanderer rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE3ZTVmNTIwYTE2NDhkYWY2MmUzNGE1OWYxNzE5MzI0NTBhODc3NTZjNTY3N2UzMTQzZDNhYWIzNzA5NDQ3ZSJ9fX0=
+    glow: TRUE
+  wanderer_plus:
+    group: group.wanderer+
+    vote_req: 20
+    cost: 25000
+    item:
+      name: Wanderer+ rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcyOGMxYzY0ZTgzMzYxZDQ4Zjc1MDlhMmJhODI5OTNmZWQyNTU4NmZhMzUxOTJjZjI2N2E1MDVhOGZlNWI4MSJ9fX0=
+    glow: TRUE
+  adventurer:
+    group: group.adventurer
+    vote_req: 40
+    cost: 80000
+    item:
+      name: Adventurer rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjEyYzM4ZmY1NGM0NTY2YWY0NWEzOTYxYmY1NTZmZGFmODg2ZjlhZDY5YzM4OTdmYjRkN2IyNjg2ZDA4MWM4MCJ9fX0=
+    glow: TRUE
+  adventurer_plus:
+    group: group.adventurer+
+    vote_req: 45
+    cost: 120000
+    item:
+      name: Adventurer+ rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFlYjNhOWMyYTY0N2M2ODA4YTg4YzY5Mjg5NmY0ODI5NGQzYjU5YzljYTllOGNhNjI2NWI4NDg0MGQxZmU5YSJ9fX0=
+    glow: TRUE
+  explorer:
+    group: group.explorer
+    vote_req: 90
+    cost: 170000
+    item:
+      name: Explorer rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFlYjNhOWMyYTY0N2M2ODA4YTg4YzY5Mjg5NmY0ODI5NGQzYjU5YzljYTllOGNhNjI2NWI4NDg0MGQxZmU5YSJ9fX0=
+    glow: TRUE
+  explorer_plus:
+    group: group.explorer+
+    vote_req: 120
+    cost: 200000
+    item:
+      name: Explorer+ rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkYTdiYzJlN2Q0YjNkYjhiMzg4MTg3YWY2ODNmNTZhMTIxYzk2MWQ3ODdjNmY4NTFiYmI5Njc0YzkzNzQ2YiJ9fX0=
+    glow: TRUE
+  warden:
+    group: group.vip
+    vote_req: 175
+    cost: 270000
+    item:
+      name: Warden rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYxMmZiY2VhYmNjNDgxNzY1NzYxMWRhMWRkMGZmMjgxZTBmZmIzMDQwOTVhZjY5YTFmODgyZjFkODNjMDFjYiJ9fX0=
+    glow: TRUE
+  warden_plus:
+    group: group.vip+
+    vote_req: 250
+    cost: 350000
+    item:
+      name: Warden+ rank
+      material: PLAYER_HEAD
+      lore:
+        -
+        -
+      skull-id: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc5ZDMzZGQyNWU0ZjM0ZmViNzFkN2FkZmE2MGI4MjlkNmU5NThkYWQxZjJmZGE4NTNlZjkxMGFiMTM5YzdlMyJ9fX0=
+    glow: TRUE
+# Placeholders:
+# %vote_req%: Vote points required to buy the next rank
+# %cost%: Money required to buy the next rank
+# %next_rank%: Player's next rank
+rank-up-item:
+  name: "Buy %next_rank% rank"
+  material: NETHER_STAR
+  lore:
+    - "Vote points required: %vote_req%"
+    - "Money required: %cost%"
+# No placeholders available
+rank-up-item-top-rank:
+  name: "You already have the top rank"
+  material: NETHER_STAR
+  lore: []

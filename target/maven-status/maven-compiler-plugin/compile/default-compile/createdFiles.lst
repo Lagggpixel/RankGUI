@@ -1,0 +1,9 @@
+me\lagggpixel\rankgui\managers\RankGuiManager.class
+me\lagggpixel\rankgui\commands\RankCommand.class
+me\lagggpixel\rankgui\currenices\CurrencyMain.class
+me\lagggpixel\rankgui\managers\HeadManager.class
+me\lagggpixel\rankgui\currenices\CurrencyStore.class
+me\lagggpixel\rankgui\Main.class
+me\lagggpixel\rankgui\builders\ItemBuilder.class
+me\lagggpixel\rankgui\managers\ConfigDataManager.class
+me\lagggpixel\rankgui\currenices\BalanceFileManager.class

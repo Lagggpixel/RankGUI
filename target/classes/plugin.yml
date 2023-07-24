@@ -1,0 +1,25 @@
+name: RankGUI
+version: '1.0-SNAPSHOT'
+main: me.lagggpixel.rankgui.Main
+api-version: 1.19
+authors: [Lagggpixel]
+
+commands:
+  rank:
+    aliases:
+      - ranks
+    permission: rankgui.command.rank
+  votepoints:
+    aliases:
+      - votepoint
+    permission: rankgui.command.votepoint
+
+permissions:
+  rankgui.command.rank:
+    default: true
+  rankgui.command.votepoint:
+    default: true
+  rankgui.command.votepoint.others:
+    default: op
+  rankgui.command.votepoint.admin:
+    default: op
