@@ -1,9 +1,14 @@
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\Main.java
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\builders\ItemBuilder.java
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\currenices\BalanceFileManager.java
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\commands\RankCommand.java
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\RankGuiManager.java
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\HeadManager.java
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\currenices\CurrencyStore.java
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\ConfigDataManager.java
-D:\Minecraft\Plugins\InfiniteMinecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\currenices\CurrencyMain.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\RankManager.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\builders\ItemBuilder.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\currenices\BalanceFileManager.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\commands\VotePointsCommand.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\RankGuiManager.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\Main.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\listeners\PlayerJoinListener.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\HeadManager.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\currenices\CurrencyManager.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\MessagesFileManager.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\EconomyManager.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\listeners\InventoryClickListener.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\commands\RankCommand.java
+D:\Minecraft\Plugins\Infinite Minecrafters\RankGUI\src\main\java\me\lagggpixel\rankgui\managers\ConfigDataManager.java

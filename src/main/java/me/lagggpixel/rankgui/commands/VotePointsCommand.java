@@ -43,10 +43,6 @@ public class VotePointsCommand implements TabExecutor {
                     return true;
                 }
                 @SuppressWarnings("deprecation") OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(args[0]);
-                if (!offlinePlayer.hasPlayedBefore()) {
-                    commandSender.sendMessage(Main.getInstance().getMessages().get("player-never-joined"));
-                    return true;
-                }
                 UUID uuid = offlinePlayer.getUniqueId();
                 if (!Main.getInstance().getBalances().containsKey(uuid)) {
                     commandSender.sendMessage(Main.getInstance().getMessages().get("player-never-joined"));
@@ -63,10 +59,6 @@ public class VotePointsCommand implements TabExecutor {
                     return true;
                 }
                 @SuppressWarnings("deprecation") OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(args[1]);
-                if (!offlinePlayer.hasPlayedBefore()) {
-                    commandSender.sendMessage(Main.getInstance().getMessages().get("player-never-joined"));
-                    return true;
-                }
                 UUID uuid = offlinePlayer.getUniqueId();
                 if (!Main.getInstance().getBalances().containsKey(uuid)) {
                     commandSender.sendMessage(Main.getInstance().getMessages().get("player-never-joined"));
@@ -122,10 +114,6 @@ public class VotePointsCommand implements TabExecutor {
             }
             if (args.length == 1) {
                 @SuppressWarnings("deprecation") OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(args[0]);
-                if (!offlinePlayer.hasPlayedBefore()) {
-                    commandSender.sendMessage(Main.getInstance().getMessages().get("player-never-joined"));
-                    return true;
-                }
                 UUID uuid = offlinePlayer.getUniqueId();
                 if (!Main.getInstance().getBalances().containsKey(uuid)) {
                     commandSender.sendMessage(Main.getInstance().getMessages().get("player-never-joined"));
@@ -138,10 +126,6 @@ public class VotePointsCommand implements TabExecutor {
             }
             if (args.length == 3) {
                 @SuppressWarnings("deprecation") OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(args[1]);
-                if (!offlinePlayer.hasPlayedBefore()) {
-                    commandSender.sendMessage(Main.getInstance().getMessages().get("player-never-joined"));
-                    return true;
-                }
                 UUID uuid = offlinePlayer.getUniqueId();
                 if (!Main.getInstance().getBalances().containsKey(uuid)) {
                     commandSender.sendMessage(Main.getInstance().getMessages().get("player-never-joined"));
