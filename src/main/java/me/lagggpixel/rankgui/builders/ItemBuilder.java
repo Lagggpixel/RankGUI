@@ -11,6 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 public class ItemBuilder {
@@ -78,7 +79,7 @@ public class ItemBuilder {
         return this;
     }
 
-    public ItemBuilder setLore(ArrayList<String> lore) {
+    public ItemBuilder setLore(List<String> lore) {
         ItemMeta meta = getItemMeta();
         meta.setLore(lore);
         setItemMeta(meta);
