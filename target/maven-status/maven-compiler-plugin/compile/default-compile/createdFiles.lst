@@ -1,7 +1,14 @@
+me\lagggpixel\rankgui\managers\MessagesFileManager.class
+me\lagggpixel\rankgui\listeners\PlayerJoinListener.class
+me\lagggpixel\rankgui\managers\EconomyManager.class
+me\lagggpixel\rankgui\listeners\InventoryClickListener.class
 me\lagggpixel\rankgui\Main.class
 me\lagggpixel\rankgui\builders\ItemBuilder.class
 me\lagggpixel\rankgui\managers\ConfigDataManager.class
 me\lagggpixel\rankgui\currenices\BalanceFileManager.class
 me\lagggpixel\rankgui\managers\RankGuiManager.class
+me\lagggpixel\rankgui\managers\RankManager.class
 me\lagggpixel\rankgui\commands\RankCommand.class
 me\lagggpixel\rankgui\managers\HeadManager.class
+me\lagggpixel\rankgui\commands\VotePointsCommand.class
+me\lagggpixel\rankgui\currenices\CurrencyManager.class

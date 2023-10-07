@@ -11,6 +11,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class RankGuiManager {
@@ -40,6 +41,8 @@ public class RankGuiManager {
 
                 assert meta != null;
                 meta.setDisplayName(rank.getString("item.name"));
+                meta.setLore(rank.getStringList("item.lore"));
+
 
                 item.setItemMeta(meta);
                 rankItems.add(item);
@@ -62,9 +65,9 @@ public class RankGuiManager {
         if (nextRank != null) {
             int voteReq = Main.getInstance().getRankVoteReq().get(RankManager.getPlayerNextRank(player));
             int cost = Main.getInstance().getRankCost().get(RankManager.getPlayerNextRank(player));
-            ArrayList<String> lore = new ArrayList<>();
-            ArrayList<String> originalLore = (ArrayList<String>) Main.getInstance().getConfig().getList("rank-up-item.lore");
-            if (originalLore != null) {
+            List<String> lore = new ArrayList<>();
+            List<String> originalLore = Main.getInstance().getConfig().getStringList("rank-up-item.lore");
+            if (!originalLore.isEmpty()) {
                 for (String s : originalLore) {
                     String modifiedString = s
                             .replace("%cost%", String.valueOf(cost))
@@ -79,7 +82,7 @@ public class RankGuiManager {
         } else {
             rankupItem = new ItemBuilder(Material.getMaterial(Objects.requireNonNull(Main.getInstance().getConfig().getString("rank-up-item-top-rank.material"))))
                     .setDisplayName(Main.getInstance().getConfig().getString("rank-up-item-top-rank.name"))
-                    .setLore((ArrayList<String>) Main.getInstance().getConfig().getList("rank-up-item-top-rank.lore"))
+                    .setLore(Main.getInstance().getConfig().getStringList("rank-up-item-top-rank.lore"))
                     .build();
         }
         inv.setItem(31, rankupItem);
